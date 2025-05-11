@@ -3,8 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 from openai import OpenAI
 
 # 🔐 Вставь свои ключи прямо сюда (НЕ ДЕЛАЙ ТАК в публичном коде)
-TELEGRAM_TOKEN = "7631118050:AAGLvZ9vzC6xEaWncJvQ6jVynZx7t0RbKe4"
-OPENAI_API_KEY = "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"
+
 
 # Инициализация клиента OpenAI
 client = OpenAI(api_key=OPENAI_API_KEY)
